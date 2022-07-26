@@ -3,6 +3,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .background {
@@ -22,7 +23,7 @@ html {
   align-items: center;
   background-color: white;
   width: 400px;
-  height: 550px;
+  height: 500px;
   border-radius: 5px;
   gap: 1;
 }
@@ -32,13 +33,25 @@ html {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.social_icons {
-  padding: 15px;
+.social_wrapper {
+  display: flex;
+  gap: 35px;
 }
 p {
   margin-top: 10px;
 }
 .name {
+  margin-top: 0;
   margin-bottom: 0;
+}
+hr {
+  margin: 20px;
+  width: 60%;
+  size: 5;
+  color: black;
+}
+a :hover {
+  transform: scale(1.2);
 }
