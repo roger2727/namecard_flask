@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/static/lake.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  border-radius: 5px;
+  gap: 1;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.social_icons {
+  padding: 15px;
+}
+p {
+  margin-top: 10px;
+}
+.name {
+  margin-bottom: 0;
+}
